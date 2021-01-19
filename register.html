@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- Mirrored from me.vcardsocial.com/register by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Dec 2020 10:45:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <title>VCard Create Account</title>
+    <link rel="stylesheet" type="text/css" href="public/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/menu.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/framework.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/font-awesome.css">
+    <script type="text/javascript" src="public/scripts/jquery.js"></script>
+    <script type="text/javascript" src="public/scripts/plugins.js"></script>
+    <script type="text/javascript" src="public/scripts/custom.js"></script>
+    <link rel="stylesheet" href="public/build/css/intlTelInput.css">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#41516f">
+    <link rel="apple-touch-icon" sizes="196x196" href="vicon/192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="vicon/192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="vicon/192.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="vicon/192.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="vicon/192.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="vicon/192.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="vicon/192.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="vicon/192.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="vicon/192.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="vicon/192.png">
+    <link rel="icon" type="image/png" href="vicon/192.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="vicon/192.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="vicon/192.png" sizes="16x16">
+    <link rel="shortcut icon" href="vicon/192.png" type="image/x-icon" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#41516f" />
+    <style>
+        .country-list{
+            max-width: 280px;
+        }
+    </style>
+</head>
+<body class="has-cover">
+<div class="gallery-fix"></div>
+<div class="header-fixed header-dark" style="    margin: auto;">
+    <a href="index.html" class="header-logo vj-logo">vCardSocial</a>
+</div>
+
+<div id="page-content" style="    margin: auto;">
+    <div id="page-content-scroll">
+        <div class="header-clear"></div>
+
+        <div class="content" style="
+    margin-top: 20px;
+">
+                        <h2 class="center-text">7  Free Trial Days</h2>
+                
+            <div class="jagya20bottom"></div>
+            <div class="row">
+                            </div>
+
+            <div class="page-login full-bottom">
+                <form method="POST" action="https://me.vcardsocial.com/register">
+                    <input type="hidden" name="_token" value="1KIGbLW5qK0vH7KwGhwxr1QMV4TUHQHzM3SbfhNY">                    <div class="login-input">
+
+                        <i class="fa fa-user"></i>
+                        <input id="name" type="text" placeholder="Name" class="form-control" name="name" value="" required autofocus>
+
+                    </div>
+                    
+                        <div class="login-input" style="    margin-bottom: 20px;">
+
+
+                            <input id="phone" type="tel" placeholder="Phone" class="form-control" name="phonex" value="" required autofocus>
+
+                        </div>
+                        <script src="public/build/js/intlTelInput.js"></script>
+                        <script>
+                            $("#phone").intlTelInput({
+                                //allowDropdown: true,
+                                autoHideDialCode: true,
+                                // autoPlaceholder: "off",
+                                // dropdownContainer: "body",
+                                // excludeCountries: ["us"],
+                                // formatOnDisplay: false,
+                                geoIpLookup: function(callback) {
+                                    $.get("https://ipinfo.io/", function() {}, "jsonp").always(function(resp) {
+                                        var countryCode = (resp && resp.country) ? resp.country : "";
+                                        callback(countryCode);
+                                    });
+                                },
+                                hiddenInput: "phone",
+                                initialCountry: "auto",
+                                //nationalMode: true,
+                                // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+                                placeholderNumberType: "MOBILE",
+                                // preferredCountries: ['cn', 'jp'],
+                                separateDialCode: true,
+                                utilsScript: "/public/build/js/utils.js"
+                            });
+
+                        </script>
+                                            <div class="login-input">
+
+                        <i class="fa fa-envelope-o"></i>
+                        <input id="email" type="email" placeholder="Email" class="form-control" name="email" value="" required autofocus>
+
+                    </div>
+
+
+                    <div class="login-password">
+                        <i class="fa fa-lock"></i>
+
+                        <input id="password" type="password" placeholder="Password" class="form-control" name="password" required>
+
+                    </div>
+                    <div class="login-password">
+                        <i class="fa fa-lock"></i>
+
+                        <input id="password-confirm" placeholder="Confirm Password" type="password" class="form-control" name="password_confirmation" required>
+
+                    </div>
+
+                <!-- <a href="https://me.vcardsocial.com/password/reset" class="login-forgot"><i class="fa fa-eye"></i>Forgot Credentials</a>
+ -->
+                    <div class="clear"></div>
+                    <button type="submit" style="
+    line-height: 2;
+"  class="login-button button button-small button-green button-fullscreen full-bottom">Create Account </button>
+                </form>
+                <a href="login.html" class="login-button button button-small button-green button-fullscreen full-bottom">Login</a>
+                <div  class="center-text">
+                                            <p style="font-size:12px;display:inline;">By signing up, you agree to our <a href="https://vcardsocial.com?/#___external" target="_blank" style="display:inline;">Privacy and Terms</a></p></div>
+                
+            </div></div>
+    </div>
+</div>
+
+</body>
+
+<!-- Mirrored from me.vcardsocial.com/register by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Dec 2020 10:45:16 GMT -->
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "vCardSocial",
+   "short_name": "vCardSocial",
+   "description": "A Complete Lead Conversion Platform",
+  "icons": [
+    {
+      "src": "vicon/36.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "vicon/48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "vicon/72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "vicon/96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "vicon/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "vicon/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "aliceblue",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+  
+}
